@@ -5,7 +5,7 @@ Badger
 The makespace badge printing machine
 
 
-##Hardware
+## Hardware
 
 The tag hardware is from ib technology:
 
@@ -15,13 +15,13 @@ Tag module: http://www.ibtechnology.co.uk/products/hitag2-product.htm  It seems 
 
 The printer is a Dymo Label 450
 
-###Addition if you want to do the buttons
+### Addition if you want to do the buttons
 
 The Badger uses the DSR# pin of the USB - Serial chip (FT232RL) as an input for the buttons. If you just want a single button (for editing label, for example), you can connect it directly to that pin (Pin 9), with the other side of the button connected to 0V.
 
 If you want to have two buttons, you need a multiplexer. Pin 2 (DTR#) drives the selection. See the "BadgerMux - Schematic.pdf" for a sketch of a circuit which works.
 
-##Software
+## Software
 
 you'll need...
 
